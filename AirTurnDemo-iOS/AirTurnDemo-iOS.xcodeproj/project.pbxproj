@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07AB0D4B1D7684AA0065ACF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB0D4A1D7684AA0065ACF6 /* AppDelegate.swift */; };
+		07AB0D4D1D7684AA0065ACF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB0D4C1D7684AA0065ACF6 /* ViewController.swift */; };
+		07AB0D501D7684AA0065ACF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AB0D4E1D7684AA0065ACF6 /* Main.storyboard */; };
+		07AB0D521D7684AA0065ACF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AB0D511D7684AA0065ACF6 /* Assets.xcassets */; };
+		07AB0D551D7684AA0065ACF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AB0D531D7684AA0065ACF6 /* LaunchScreen.storyboard */; };
+		07AB0D601D7684AA0065ACF6 /* AirTurnDemo_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB0D5F1D7684AA0065ACF6 /* AirTurnDemo_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07AB0D5C1D7684AA0065ACF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07AB0D3F1D7684AA0065ACF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07AB0D461D7684AA0065ACF6;
+			remoteInfo = "AirTurnDemo-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AB0D471D7684AA0065ACF6 /* AirTurnDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirTurnDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AB0D4A1D7684AA0065ACF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07AB0D4C1D7684AA0065ACF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07AB0D4F1D7684AA0065ACF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07AB0D511D7684AA0065ACF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07AB0D541D7684AA0065ACF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07AB0D561D7684AA0065ACF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07AB0D5B1D7684AA0065ACF6 /* AirTurnDemo-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AirTurnDemo-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AB0D5F1D7684AA0065ACF6 /* AirTurnDemo_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTurnDemo_iOSTests.swift; sourceTree = "<group>"; };
+		07AB0D611D7684AA0065ACF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07AB0D441D7684AA0065ACF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AB0D581D7684AA0065ACF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07AB0D3E1D7684AA0065ACF6 = {
+			isa = PBXGroup;
+			children = (
+				07AB0D491D7684AA0065ACF6 /* AirTurnDemo-iOS */,
+				07AB0D5E1D7684AA0065ACF6 /* AirTurnDemo-iOSTests */,
+				07AB0D481D7684AA0065ACF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07AB0D481D7684AA0065ACF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07AB0D471D7684AA0065ACF6 /* AirTurnDemo-iOS.app */,
+				07AB0D5B1D7684AA0065ACF6 /* AirTurnDemo-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07AB0D491D7684AA0065ACF6 /* AirTurnDemo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				07AB0D4A1D7684AA0065ACF6 /* AppDelegate.swift */,
+				07AB0D4C1D7684AA0065ACF6 /* ViewController.swift */,
+				07AB0D4E1D7684AA0065ACF6 /* Main.storyboard */,
+				07AB0D511D7684AA0065ACF6 /* Assets.xcassets */,
+				07AB0D531D7684AA0065ACF6 /* LaunchScreen.storyboard */,
+				07AB0D561D7684AA0065ACF6 /* Info.plist */,
+			);
+			path = "AirTurnDemo-iOS";
+			sourceTree = "<group>";
+		};
+		07AB0D5E1D7684AA0065ACF6 /* AirTurnDemo-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				07AB0D5F1D7684AA0065ACF6 /* AirTurnDemo_iOSTests.swift */,
+				07AB0D611D7684AA0065ACF6 /* Info.plist */,
+			);
+			path = "AirTurnDemo-iOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07AB0D461D7684AA0065ACF6 /* AirTurnDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AB0D641D7684AA0065ACF6 /* Build configuration list for PBXNativeTarget "AirTurnDemo-iOS" */;
+			buildPhases = (
+				07AB0D431D7684AA0065ACF6 /* Sources */,
+				07AB0D441D7684AA0065ACF6 /* Frameworks */,
+				07AB0D451D7684AA0065ACF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirTurnDemo-iOS";
+			productName = "AirTurnDemo-iOS";
+			productReference = 07AB0D471D7684AA0065ACF6 /* AirTurnDemo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07AB0D5A1D7684AA0065ACF6 /* AirTurnDemo-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AB0D671D7684AA0065ACF6 /* Build configuration list for PBXNativeTarget "AirTurnDemo-iOSTests" */;
+			buildPhases = (
+				07AB0D571D7684AA0065ACF6 /* Sources */,
+				07AB0D581D7684AA0065ACF6 /* Frameworks */,
+				07AB0D591D7684AA0065ACF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07AB0D5D1D7684AA0065ACF6 /* PBXTargetDependency */,
+			);
+			name = "AirTurnDemo-iOSTests";
+			productName = "AirTurnDemo-iOSTests";
+			productReference = 07AB0D5B1D7684AA0065ACF6 /* AirTurnDemo-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07AB0D3F1D7684AA0065ACF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "James Bean";
+				TargetAttributes = {
+					07AB0D461D7684AA0065ACF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					07AB0D5A1D7684AA0065ACF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 07AB0D461D7684AA0065ACF6;
+					};
+				};
+			};
+			buildConfigurationList = 07AB0D421D7684AA0065ACF6 /* Build configuration list for PBXProject "AirTurnDemo-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07AB0D3E1D7684AA0065ACF6;
+			productRefGroup = 07AB0D481D7684AA0065ACF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07AB0D461D7684AA0065ACF6 /* AirTurnDemo-iOS */,
+				07AB0D5A1D7684AA0065ACF6 /* AirTurnDemo-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07AB0D451D7684AA0065ACF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AB0D551D7684AA0065ACF6 /* LaunchScreen.storyboard in Resources */,
+				07AB0D521D7684AA0065ACF6 /* Assets.xcassets in Resources */,
+				07AB0D501D7684AA0065ACF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AB0D591D7684AA0065ACF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07AB0D431D7684AA0065ACF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AB0D4D1D7684AA0065ACF6 /* ViewController.swift in Sources */,
+				07AB0D4B1D7684AA0065ACF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AB0D571D7684AA0065ACF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AB0D601D7684AA0065ACF6 /* AirTurnDemo_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07AB0D5D1D7684AA0065ACF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07AB0D461D7684AA0065ACF6 /* AirTurnDemo-iOS */;
+			targetProxy = 07AB0D5C1D7684AA0065ACF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07AB0D4E1D7684AA0065ACF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AB0D4F1D7684AA0065ACF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07AB0D531D7684AA0065ACF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AB0D541D7684AA0065ACF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07AB0D621D7684AA0065ACF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07AB0D631D7684AA0065ACF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07AB0D651D7684AA0065ACF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AirTurnDemo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bean.AirTurnDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07AB0D661D7684AA0065ACF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AirTurnDemo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bean.AirTurnDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07AB0D681D7684AA0065ACF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AirTurnDemo-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bean.AirTurnDemo-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTurnDemo-iOS.app/AirTurnDemo-iOS";
+			};
+			name = Debug;
+		};
+		07AB0D691D7684AA0065ACF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AirTurnDemo-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bean.AirTurnDemo-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTurnDemo-iOS.app/AirTurnDemo-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07AB0D421D7684AA0065ACF6 /* Build configuration list for PBXProject "AirTurnDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AB0D621D7684AA0065ACF6 /* Debug */,
+				07AB0D631D7684AA0065ACF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AB0D641D7684AA0065ACF6 /* Build configuration list for PBXNativeTarget "AirTurnDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AB0D651D7684AA0065ACF6 /* Debug */,
+				07AB0D661D7684AA0065ACF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07AB0D671D7684AA0065ACF6 /* Build configuration list for PBXNativeTarget "AirTurnDemo-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AB0D681D7684AA0065ACF6 /* Debug */,
+				07AB0D691D7684AA0065ACF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07AB0D3F1D7684AA0065ACF6 /* Project object */;
+}

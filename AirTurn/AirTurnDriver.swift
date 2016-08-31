@@ -17,7 +17,7 @@ public class AirTurnDriver: UIView {
     
     private let delegate: AirTurnDelegate
     
-    /*
+    /**
      Create an `AirTurnDriver` with a given `delegate`.
      
      **Example:**

@@ -8,10 +8,34 @@
 
 import UIKit
 
+/**
+ Class that listens for AirTurn commands. 
+ 
+ - note: The AirTurn must be connected to the device via Bluetooth.
+ */
 public class AirTurnDriver: UIView {
     
     private let delegate: AirTurnDelegate
     
+    /*
+     Create an `AirTurnDriver` with a given `delegate`.
+     
+     **Example:**
+     
+     ```
+     class ViewController: UIViewController, AirTurnDelegate {
+         override viewDidLoad() {
+             super.viewDidLoad()
+             let airTurnDriver = AirTurnDriver(delegate: self)
+             view.addSubview(airTurnDriver)
+         }
+     
+         func leftPedalPressed() { }
+     
+         func rightPedalPressed() { }
+     }
+     ```
+     */
     public init(delegate: AirTurnDelegate) {
         self.delegate = delegate
         super.init(frame: CGRect.zero)
@@ -24,7 +48,6 @@ public class AirTurnDriver: UIView {
     
     public override func canBecomeFirstResponder() -> Bool { return true }
     
-    // TODO: add to AirTurnDelegate protocol as default implementation
     public override var keyCommands: [UIKeyCommand]? {
         
         let left = UIKeyCommand(

@@ -22,7 +22,7 @@ public class AirTurnDriver: UIView {
      
      **Example:**
      
-     ```
+     ```Swift
      class ViewController: UIViewController, AirTurnDelegate {
          override viewDidLoad() {
              super.viewDidLoad()
@@ -31,7 +31,6 @@ public class AirTurnDriver: UIView {
          }
      
          func leftPedalPressed() { }
-     
          func rightPedalPressed() { }
      }
      ```

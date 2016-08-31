@@ -8,7 +8,14 @@
 
 import Foundation
 
+/**
+ Protocol defining support for AirTurn footpedal messages.
+ */
 public protocol AirTurnDelegate {
+    
+    /// Left foot-pedal pressed.
     func leftPedalPressed()
+    
+    /// Right foot-pedal pressed.
     func rightPedalPressed()
 }

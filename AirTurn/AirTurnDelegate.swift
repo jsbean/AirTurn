@@ -13,6 +13,8 @@ import Foundation
  */
 public protocol AirTurnDelegate {
     
+    // MARK: - Instance Methods
+    
     /// Left foot-pedal pressed.
     func leftPedalPressed()
     

@@ -27,7 +27,6 @@ import UIKit
      func rightPedalPressed() { }
  }
  ```
-
  */
 public class AirTurnDriver: UIView {
     

@@ -28,9 +28,9 @@ import UIKit
  }
  ```
  */
-public class AirTurnDriver: UIView {
+open class AirTurnDriver: UIView {
     
-    private let delegate: AirTurnDelegate
+    fileprivate let delegate: AirTurnDelegate
     
     // MARK: - Initializers
     
@@ -47,9 +47,9 @@ public class AirTurnDriver: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public override func canBecomeFirstResponder() -> Bool { return true }
+//    open override func canBecomeFirstResponder() -> Bool { return true }
     
-    public override var keyCommands: [UIKeyCommand]? {
+    open override var keyCommands: [UIKeyCommand]? {
         
         let left = UIKeyCommand(
             input: UIKeyInputLeftArrow,
@@ -78,11 +78,11 @@ public class AirTurnDriver: UIView {
         return [left, right, up, down]
     }
     
-    @objc private func leftPedalPressed() {
+    @objc fileprivate func leftPedalPressed() {
         delegate.leftPedalPressed()
     }
     
-    @objc private func rightPedalPressed() {
+    @objc fileprivate func rightPedalPressed() {
         delegate.rightPedalPressed()
     }
 }

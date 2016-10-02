@@ -146,9 +146,12 @@
 				TargetAttributes = {
 					07AB0D461D7684AA0065ACF6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F8LCL8SXLX;
+						LastSwiftMigration = 0800;
 					};
 					07AB0D5A1D7684AA0065ACF6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 07AB0D461D7684AA0065ACF6;
 					};
 				};
@@ -329,10 +332,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8LCL8SXLX;
 				INFOPLIST_FILE = "AirTurnDemo-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bean.AirTurnDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -340,10 +345,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8LCL8SXLX;
 				INFOPLIST_FILE = "AirTurnDemo-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bean.AirTurnDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -355,6 +362,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bean.AirTurnDemo-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTurnDemo-iOS.app/AirTurnDemo-iOS";
 			};
 			name = Debug;
@@ -367,6 +375,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bean.AirTurnDemo-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTurnDemo-iOS.app/AirTurnDemo-iOS";
 			};
 			name = Release;
@@ -390,6 +399,7 @@
 				07AB0D661D7684AA0065ACF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07AB0D671D7684AA0065ACF6 /* Build configuration list for PBXNativeTarget "AirTurnDemo-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +408,7 @@
 				07AB0D691D7684AA0065ACF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

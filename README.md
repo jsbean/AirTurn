@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/dn-m/AirTurn.svg?branch=master)](https://travis-ci.org/dn-m/AirTurn)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) 
-[![GitHub version](https://badge.fury.io/gh/dn-m%2FAirTurn.svg)](https://badge.fury.io/gh/dn-m%2FAirTurn)
+[![GitHub version](https://badge.fury.io/gh/dn-m%2Fairturn.svg)](https://badge.fury.io/gh/dn-m%2Fairturn)
 
 <a name="integration"></a>
 ## Integration
